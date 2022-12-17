@@ -12,7 +12,7 @@ if(isset($_POST["editlesson"])){
     $obj->editLesson($lessonint, $name, $course, $videoData);
 }
 ?>
-<h2>Edit lesson</h2>
+<h2>Edit <?php echo $lesson['name']; ?></h2>
 <form action="" method="post" enctype="multipart/form-data">
 <div class="addform">
     <div class="col1">

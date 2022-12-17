@@ -29,5 +29,8 @@ function searchOn(){
 }
 
 function searchOff(){
+  setTimeout(function(){
     searchbox.classList.remove('drop');
+  }, 1000);
+    
 }

@@ -15,7 +15,7 @@ if(isset($_POST["editinstructor"])){
     
 }
 ?>
-<h2>Edit instructor</h2>
+<h2>Edit <?php echo $instructor['name']; ?></h2>
 <form action="" method="post">
 <div class="addform">
     <div class="col1">

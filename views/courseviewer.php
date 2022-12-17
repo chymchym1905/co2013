@@ -28,7 +28,7 @@
         echo '
             <tr>
                 <td>'.$lesson["ID"] .'</td>
-                <td><a href="./index.php?page=lessonsc='.$lesson["Course_Name"].'&lesson='.$lesson["ID"].'">'.$lesson["Lesson_Name"] .'</a></td>
+                <td><a href="./index.php?page=lessons&lesson='.$lesson["ID"].'">'.$lesson["Lesson_Name"] .'</a></td>
                 <td>'.$lesson["Course_Name"] .'</td>
             </tr>';
         }

@@ -20,7 +20,7 @@ if(isset($_POST["editcourse"])){
     }
 }
 ?>
-<h2>Edit course</h2>
+<h2>Edit <?php echo $course['name']; ?></h2>
 <form action="" method="post">
 <div class="addform">
     <div class="col1">
