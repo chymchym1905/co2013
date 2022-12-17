@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+    font-weight: 800;
+}
+
+
+
+.header .topnavbar{
+    padding-left:30px;
+    background: rgba(226, 105, 105, 0.451);
+}
+
+
+.header .topnavbar .linknav{
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(226, 105, 105);
+}
+
+
+
+.dropdown{
+    background: white;
+    position: absolute;
+    top:110%;
+    left: 0;
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.dropdown.open{
+    max-height: 600px;
+    z-index: 3;
+}
+
+.mylist{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mylist a{
+    margin: 10px;
+    display: inline-block;
+}
+#submenu > div > a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+/* ######################################
+######################################
+######################################
+###################################### */
+
+
+.sometext{
+    margin: 100px auto;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.video{
+    background: black;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    width: 80%;
+    height: 580px;
+    text-align: center;
+}
+
+
+/* ##########################################
+##############LESSON VIEWER###############
+########################################## */
+
+.searchbar{
+    position: relative;
+}
+
+.searchbox{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 40%;
+}
+
+.searchbox input{
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    height: 40px;
+}
+
+.search{
+    display: flex;
+    position: absolute;
+    right: 0;
+    transform: scale(1.8) translateY(30%) translateX(-55%);
+}
+
+.dropdownsearch{
+    top:120%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+    position: absolute;
+    width: 40%;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.dropdownsearch.drop{
+    max-height: 400px;
+}
+
+.mylist1{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+body > div.searchbar > div > div > a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+body > div.searchbar > div > div > a:hover{
+    text-decoration: underline;
+    color: black;
+}

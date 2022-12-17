@@ -1,0 +1,63 @@
+.mytable{
+    margin: auto;
+    margin-top: 5px;
+    width: 80%;
+    border: 1px solid rgb(97, 77, 77);
+    border-collapse: collapse;
+}
+
+.mytable tr th{
+    background-color: rgb(255, 106, 65);
+    border: 1px solid rgb(97, 77, 77);
+    padding: 10px;
+}
+
+body > table > tbody > tr > td{
+    padding: 10px;
+    border: 1px solid rgb(97, 77, 77);
+    text-align: center;
+}
+
+body > table > tbody > tr> td > button.edit{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(52, 204, 52);
+    border-radius: 3px;
+    border: none;
+}
+body > table > tbody > tr > td > button.delete{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(237, 57, 57);
+    border-radius: 3px;
+    border: none;
+}
+body > table > tbody > tr> td > button.edit:hover,
+body > table > tbody > tr > td > button.delete:hover{
+    cursor: pointer;
+}
+
+h2{
+    margin: 10px auto;
+    text-align: center;
+}
+
+body > button.add{
+    font-size: 20px;
+    position:relative;
+    left:20%;
+    transform: translateX(-120%);
+    padding:5px 15px;
+    background-color: rgb(52, 204, 52);
+    border-radius: 3px;
+    border: none;
+}
+
+button.add:hover{
+    cursor: pointer;
+}
+
+body > button > a{
+    text-decoration: none;
+    color: black;
+}
